@@ -23,7 +23,7 @@ Para instalar este pacote diretamente do GitHub, você precisará ter o
 pacote `devtools` instalado no R e executar o seguinte comando:
 
 ``` r
-#devtools::install_github(repo = "")
+devtools::install_github(repo = "fvanessa/RegLin")
 ```
 
 ## Exemplos de uso

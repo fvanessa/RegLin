@@ -29,8 +29,8 @@ O pacote também contém um conjunto de dados, `dados_simulados`, que foram simu
 
 Para instalar este pacote diretamente do GitHub, você precisará ter o pacote `devtools` instalado no R e executar o seguinte comando:
 
-```{r}
-#devtools::install_github(repo = "")
+```{r, eval = FALSE}
+devtools::install_github(repo = "fvanessa/RegLin")
 ```
 
 ## Exemplos de uso
