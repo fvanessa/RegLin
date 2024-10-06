@@ -1,0 +1,26 @@
+Package: RegLin
+Title: Ajuste de Regressões Lineares
+Version: 0.0.0.9000
+Authors@R: 
+    person("Aline", "Bernal", , "a236032@dac.unicamp.br", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person("Ana Luiza", "Viana", , "a217280@dac.unicamp.br", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person("Rita", "Braga", , "r251627@dac.unicamp.br", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person("Vanessa", "Fernandes", , "v204383@dac.unicamp.br", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Fornece os coeficientes, os resíduos, os valores preditos (para os valores observados e para novas observações) e gráficos de diagnóstico de um modelo de regressão linear.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Imports:
+    dplyr, ggplot2
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
